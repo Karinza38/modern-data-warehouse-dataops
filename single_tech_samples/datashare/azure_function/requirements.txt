@@ -4,3 +4,4 @@ azure-functions
 azure-identity
 azure-mgmt-datashare
 python-dotenv
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
