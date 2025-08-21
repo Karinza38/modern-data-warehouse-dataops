@@ -4,3 +4,4 @@ pyspark==3.2.2
 pytest
 pytest-cov
 dbx
+mlflow>=2.21.0 # not directly required, pinned by Snyk to avoid a vulnerability
