@@ -1,1 +1,2 @@
 opencensus-ext-azure==1.1.7
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
