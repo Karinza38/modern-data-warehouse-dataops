@@ -4,3 +4,6 @@ pyspark==3.2.2
 pytest
 pytest-cov
 dbx
+azure-core>=1.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
+mlflow>=3.5.0rc0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
